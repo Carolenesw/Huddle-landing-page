@@ -1,5 +1,6 @@
 .body{
     background-color: hsl(257, 40%, 49%);
+    background-image: image("./images/bg-desktop.svg");
 }
 
 .container-fluid {
@@ -10,6 +11,7 @@ h1 {
   padding: 5% 0 5% 5%;
   font-weight: 400, 700;
   font-family: "Poppins", sans-serif;
+  color: aliceblue;
 }
 
 #illustration-image {
@@ -18,11 +20,13 @@ h1 {
 
 .narration-header {
   padding-left: 15%;
+  padding-top: 7%;
 }
 
 .narration-text {
   padding-left: 15%;
   padding-right: 25%;
+  color: aliceblue;
 }
 
 #btn-button {
