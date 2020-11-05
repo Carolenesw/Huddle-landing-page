@@ -1,18 +1,18 @@
-.body{
-    background-color: hsl(257, 40%, 49%);
+/* body {
     background-image: url("../images/bg-desktop.svg");
-}
+} */
 
+.body {
+  background-image: url("../images/bg-desktop.svg");
+  background-color: hsl(257, 40%, 49%);
+}
 
 .container-fluid {
-    padding-bottom: 5%;
+  padding-bottom: 5%;
 }
 
-h1 {
+.logo {
   padding: 5% 0 5% 5%;
-  font-weight: 400, 700;
-  font-family: "Poppins", sans-serif;
-  color: aliceblue;
 }
 
 #illustration-image {
@@ -22,6 +22,10 @@ h1 {
 .narration-header {
   padding-left: 15%;
   padding-top: 7%;
+  padding-right: 10%;
+  font-weight: 400, 700;
+  font-family: "Poppins", sans-serif;
+  color: aliceblue;
 }
 
 .narration-text {
@@ -39,6 +43,17 @@ h1 {
   color: hsl(257, 40%, 49%);
 }
 
-.img {
-    background-color: tomato;
-}
+/* Media Query */
+/* @media (max-width: 1028px) {
+    #title {
+      text-align: center;
+    }
+  
+    .title-image {
+      position: static;
+      transform: rotate(0);
+    }
+  } */
+
+/* Mobile: 375px
+- Desktop: 1440px */
