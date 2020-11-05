@@ -1,7 +1,8 @@
 .body{
     background-color: hsl(257, 40%, 49%);
-    background-image: image("./images/bg-desktop.svg");
+    background-image: url("../images/bg-desktop.svg");
 }
+
 
 .container-fluid {
     padding-bottom: 5%;
