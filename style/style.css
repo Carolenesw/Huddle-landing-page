@@ -1,14 +1,20 @@
-body {
-    /* background-color: hsl(257, 40%, 49%); */
-    /* background-image: url("./images/bg-desktop.svg"); */
-}
 
 h1 {
     padding: 5% 0 5% 5% ;
     font-weight: 400, 700;
     font-family: 'Poppins', sans-serif;
 }
-/* .narration {
-    
-} */
 
+#illustration-image {
+    padding-left: 5%; 
+    
+}
+
+#narration {
+    padding-left: 10%;
+    padding-right: 5%;
+}
+
+/* .container-fluid { */
+ 
+  
