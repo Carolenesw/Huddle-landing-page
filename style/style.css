@@ -1,20 +1,27 @@
-
 h1 {
-    padding: 5% 0 5% 5% ;
-    font-weight: 400, 700;
-    font-family: 'Poppins', sans-serif;
+  padding: 5% 0 5% 5%;
+  font-weight: 400, 700;
+  font-family: "Poppins", sans-serif;
 }
 
 #illustration-image {
-    padding-left: 5%; 
-    
+  padding-left: 5%;
 }
 
-#narration {
-    padding-left: 10%;
-    padding-right: 5%;
+.narration-header {
+  padding-left: 10%;
 }
 
-/* .container-fluid { */
- 
-  
+.narration-text {
+  padding-left: 10%;
+  padding-right: 25%;
+}
+
+#btn-button {
+  margin-left: 10%;
+  width: 25%;
+  background: white;
+  border-radius: 30px;
+  text-decoration: none;
+  color: hsl(257, 40%, 49%);
+}
